@@ -2,8 +2,8 @@
 pragma solidity 0.8.18;
 
 import '../lib/forge-std/src/Script.sol';
-import '../src/contracts/Governor.sol';
-import '../src/contracts/MyToken.sol';
+import '../contracts/Governor.sol';
+import '../contracts/MyToken.sol';
 
 contract GoverScript is Script {
     event Token(address);

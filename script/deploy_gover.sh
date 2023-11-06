@@ -7,4 +7,4 @@ else
     exit 1
 fi
 
-forge create ./src/contracts/MyToken.sol:MyToken -i --rpc-url ''${BSC_TEST_URL} --private-key ${TEST_PRIVATE_KEY} --etherscan-api-key ${BscScanApiKey} --verify
+forge create ./contracts/MyToken.sol:MyToken -i --rpc-url ''${BSC_TEST_URL} --private-key ${TEST_PRIVATE_KEY} --etherscan-api-key ${BscScanApiKey} --verify
