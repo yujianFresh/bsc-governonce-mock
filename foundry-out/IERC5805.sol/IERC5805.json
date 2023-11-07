@@ -531,25 +531,25 @@
   },
   "ast": {
     "absolutePath": "lib/openzeppelin-contracts/contracts/interfaces/IERC5805.sol",
-    "id": 2752,
+    "id": 42221,
     "exportedSymbols": {
       "IERC5805": [
-        2751
+        42220
       ],
       "IERC6372": [
-        2766
+        42235
       ],
       "IVotes": [
-        2714
+        42183
       ]
     },
     "nodeType": "SourceUnit",
-    "src": "107:134:9",
+    "src": "107:134:25",
     "nodes": [
       {
-        "id": 2744,
+        "id": 42213,
         "nodeType": "PragmaDirective",
-        "src": "107:23:9",
+        "src": "107:23:25",
         "nodes": [],
         "literals": [
           "solidity",
@@ -559,67 +559,67 @@
         ]
       },
       {
-        "id": 2745,
+        "id": 42214,
         "nodeType": "ImportDirective",
-        "src": "132:40:9",
+        "src": "132:40:25",
         "nodes": [],
         "absolutePath": "lib/openzeppelin-contracts/contracts/governance/utils/IVotes.sol",
         "file": "../governance/utils/IVotes.sol",
         "nameLocation": "-1:-1:-1",
-        "scope": 2752,
-        "sourceUnit": 2715,
+        "scope": 42221,
+        "sourceUnit": 42184,
         "symbolAliases": [],
         "unitAlias": ""
       },
       {
-        "id": 2746,
+        "id": 42215,
         "nodeType": "ImportDirective",
-        "src": "173:24:9",
+        "src": "173:24:25",
         "nodes": [],
         "absolutePath": "lib/openzeppelin-contracts/contracts/interfaces/IERC6372.sol",
         "file": "./IERC6372.sol",
         "nameLocation": "-1:-1:-1",
-        "scope": 2752,
-        "sourceUnit": 2767,
+        "scope": 42221,
+        "sourceUnit": 42236,
         "symbolAliases": [],
         "unitAlias": ""
       },
       {
-        "id": 2751,
+        "id": 42220,
         "nodeType": "ContractDefinition",
-        "src": "199:41:9",
+        "src": "199:41:25",
         "nodes": [],
         "abstract": false,
         "baseContracts": [
           {
             "baseName": {
-              "id": 2747,
+              "id": 42216,
               "name": "IERC6372",
               "nameLocations": [
-                "221:8:9"
+                "221:8:25"
               ],
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 2766,
-              "src": "221:8:9"
+              "referencedDeclaration": 42235,
+              "src": "221:8:25"
             },
-            "id": 2748,
+            "id": 42217,
             "nodeType": "InheritanceSpecifier",
-            "src": "221:8:9"
+            "src": "221:8:25"
           },
           {
             "baseName": {
-              "id": 2749,
+              "id": 42218,
               "name": "IVotes",
               "nameLocations": [
-                "231:6:9"
+                "231:6:25"
               ],
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 2714,
-              "src": "231:6:9"
+              "referencedDeclaration": 42183,
+              "src": "231:6:25"
             },
-            "id": 2750,
+            "id": 42219,
             "nodeType": "InheritanceSpecifier",
-            "src": "231:6:9"
+            "src": "231:6:25"
           }
         ],
         "canonicalName": "IERC5805",
@@ -627,17 +627,17 @@
         "contractKind": "interface",
         "fullyImplemented": false,
         "linearizedBaseContracts": [
-          2751,
-          2714,
-          2766
+          42220,
+          42183,
+          42235
         ],
         "name": "IERC5805",
-        "nameLocation": "209:8:9",
-        "scope": 2752,
+        "nameLocation": "209:8:25",
+        "scope": 42221,
         "usedErrors": []
       }
     ],
     "license": "MIT"
   },
-  "id": 9
+  "id": 25
 }

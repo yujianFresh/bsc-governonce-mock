@@ -129,19 +129,19 @@
   },
   "ast": {
     "absolutePath": "lib/openzeppelin-contracts/contracts/interfaces/IERC6372.sol",
-    "id": 2767,
+    "id": 42236,
     "exportedSymbols": {
       "IERC6372": [
-        2766
+        42235
       ]
     },
     "nodeType": "SourceUnit",
-    "src": "107:411:10",
+    "src": "107:411:26",
     "nodes": [
       {
-        "id": 2753,
+        "id": 42222,
         "nodeType": "PragmaDirective",
-        "src": "107:23:10",
+        "src": "107:23:26",
         "nodes": [],
         "literals": [
           "solidity",
@@ -151,19 +151,19 @@
         ]
       },
       {
-        "id": 2766,
+        "id": 42235,
         "nodeType": "ContractDefinition",
-        "src": "132:385:10",
+        "src": "132:385:26",
         "nodes": [
           {
-            "id": 2759,
+            "id": 42228,
             "nodeType": "FunctionDefinition",
-            "src": "295:48:10",
+            "src": "295:48:26",
             "nodes": [],
             "documentation": {
-              "id": 2754,
+              "id": 42223,
               "nodeType": "StructuredDocumentation",
-              "src": "157:133:10",
+              "src": "157:133:26",
               "text": " @dev Clock used for flagging checkpoints. Can be overridden to implement timestamp based checkpoints (and voting)."
             },
             "functionSelector": "91ddadf4",
@@ -171,26 +171,26 @@
             "kind": "function",
             "modifiers": [],
             "name": "clock",
-            "nameLocation": "304:5:10",
+            "nameLocation": "304:5:26",
             "parameters": {
-              "id": 2755,
+              "id": 42224,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "309:2:10"
+              "src": "309:2:26"
             },
             "returnParameters": {
-              "id": 2758,
+              "id": 42227,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2757,
+                  "id": 42226,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2759,
-                  "src": "335:6:10",
+                  "scope": 42228,
+                  "src": "335:6:26",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -198,10 +198,10 @@
                     "typeString": "uint48"
                   },
                   "typeName": {
-                    "id": 2756,
+                    "id": 42225,
                     "name": "uint48",
                     "nodeType": "ElementaryTypeName",
-                    "src": "335:6:10",
+                    "src": "335:6:26",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint48",
                       "typeString": "uint48"
@@ -210,22 +210,22 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "334:8:10"
+              "src": "334:8:26"
             },
-            "scope": 2766,
+            "scope": 42235,
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           },
           {
-            "id": 2765,
+            "id": 42234,
             "nodeType": "FunctionDefinition",
-            "src": "455:60:10",
+            "src": "455:60:26",
             "nodes": [],
             "documentation": {
-              "id": 2760,
+              "id": 42229,
               "nodeType": "StructuredDocumentation",
-              "src": "349:48:10",
+              "src": "349:48:26",
               "text": " @dev Description of the clock"
             },
             "functionSelector": "4bf5d7e9",
@@ -233,26 +233,26 @@
             "kind": "function",
             "modifiers": [],
             "name": "CLOCK_MODE",
-            "nameLocation": "464:10:10",
+            "nameLocation": "464:10:26",
             "parameters": {
-              "id": 2761,
+              "id": 42230,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "474:2:10"
+              "src": "474:2:26"
             },
             "returnParameters": {
-              "id": 2764,
+              "id": 42233,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2763,
+                  "id": 42232,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2765,
-                  "src": "500:13:10",
+                  "scope": 42234,
+                  "src": "500:13:26",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -260,10 +260,10 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 2762,
+                    "id": 42231,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "500:6:10",
+                    "src": "500:6:26",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string"
@@ -272,9 +272,9 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "499:15:10"
+              "src": "499:15:26"
             },
-            "scope": 2766,
+            "scope": 42235,
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
@@ -287,15 +287,15 @@
         "contractKind": "interface",
         "fullyImplemented": false,
         "linearizedBaseContracts": [
-          2766
+          42235
         ],
         "name": "IERC6372",
-        "nameLocation": "142:8:10",
-        "scope": 2767,
+        "nameLocation": "142:8:26",
+        "scope": 42236,
         "usedErrors": []
       }
     ],
     "license": "MIT"
   },
-  "id": 10
+  "id": 26
 }
